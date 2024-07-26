@@ -29,11 +29,11 @@ public class Rodriguez_Jarol_Menu {
                     System.out.println("Opción no válida, intenta de nuevo.");
             }
         }
-        System.out.println("¡Hasta luego!");
+        System.out.println("Hasta luego!");
     }
 
     public static void ejercicio1(Scanner scanner) {
-        System.out.print("Ingresa una cadena: ");
+        System.out.print("Ingrese su cadena: ");
         String cadena = scanner.nextLine();
 
         
@@ -99,7 +99,7 @@ public class Rodriguez_Jarol_Menu {
             
             if (nota < notaMenor) {
                 notaMenor = nota;
-            }
+            } 
         }
         
         if (cantidadNotas == 0) {

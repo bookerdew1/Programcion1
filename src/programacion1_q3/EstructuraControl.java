@@ -27,12 +27,20 @@ public class EstructuraControl {
         int tabla=lea.nextInt();
        
         System.out.println("Ingrese el limite: ");
+        int opcion=0;
+        
+        switch(opcion){ 
+            case 1:   
+                 System.out.println("**** Menu ****"
+        +"\n -tabla \n2 - desconocido \n- salir\n\nEscoja una opcion: ");
+       
+                 opcion=lea.nextInt();
        
         int contador=0, resultado=0, suma=0,limite=lea.nextInt();
         
        // limite=lea.nextInt();
         
-        while(contador<limite){
+       /* while(contador<limite){
             contador=contador+1;//contador+=1,contador++
             //  2       1*2
             resultado=contador*tabla;
@@ -40,7 +48,51 @@ public class EstructuraControl {
             System.out.println(tabla+ " x "+contador+" = "+resultado);
             suma+=resultado;
         }
-        System.out.println("Suma total: "+suma);
-    }
+        System.out.println("Suma total: "+suma); */
+       
+       //Do whiele 
     
+    do{
+        contador++;
+        resultado=tabla*contador;
+        System.out.println(tabla+" x "+contador+" = "+resultado);
+        
+        
+      while(opcione!= )
+        }
+        System.out.println("**** Menu ****"
+        +"\n -tabla \n2 - desconocido \n- salir\n\nEscoja una opcion: ");
+        opcion=lea.nextInt();
+       
+        int contador=0, resultado=0, suma=0,limite=lea.nextInt();
+        
+       // limite=lea.nextInt();
+        
+       /* while(contador<limite){
+            contador=contador+1;//contador+=1,contador++
+            //  2       1*2
+            resultado=contador*tabla;
+            //ResTotal= resultado + resultado;
+            System.out.println(tabla+ " x "+contador+" = "+resultado);
+            suma+=resultado;
+        }
+        System.out.println("Suma total: "+suma); */
+       
+       //Do whiele 
+    
+    do{
+        contador++;
+        resultado=tabla*contador;
+        System.out.println(tabla+" x "+contador+" = "+resultado);
+        
+        while(opcione!=0 );
+           
+}while(contador<=limite);
+    break;
+            case 2:
+                System.out.println("Ejercicio");
+            default:
+                System.out.println("");
+} 
 }
+
